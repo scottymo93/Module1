@@ -9,10 +9,15 @@ class Program
             return Math.PI*radius*radius;
         }
 
-        static double AreaOftriangle(double baseLength, double height)
+        static double AreaOfTriangle(double baseLength, double height)
         {
             var mult = baseLength*height;
             return mult/2;
+        }
+
+        static double AreaOfRectangle(double width, double height)
+        {
+            return width*height;
         }
         
     }
