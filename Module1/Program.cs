@@ -6,7 +6,8 @@ class Program
     {
         static double AreaOfCircle(double radius)
         {
-            return Math.PI*radius*radius;
+            var squared = radius * radius;
+            return Math.PI*squared;
         }
 
         static double AreaOfTriangle(double baseLength, double height)
@@ -19,6 +20,10 @@ class Program
         {
             return width*height;
         }
-        
+
+        static double AreaOfSquare(double side)
+        {
+            return side*side;
+        }
     }
 }
