@@ -8,6 +8,12 @@ class Program
         {
             return Math.PI*radius*radius;
         }
+
+        static double AreaOftriangle(double baseLength, double height)
+        {
+            var mult = baseLength*height;
+            return mult/2;
+        }
         
     }
 }
